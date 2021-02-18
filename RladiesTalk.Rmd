@@ -157,7 +157,13 @@ titles
 
 ```
 
+---
 
+## Finding the right CSS
+
+```{r, echo=FALSE, fig.align='center', out.width="100%"}
+knitr::include_graphics("images/cookbooks_attr.png")
+```
 
 ---
 
@@ -194,7 +200,7 @@ knitr::include_graphics("images/timbers_family.jpg")
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r, echo=FALSE, fig.align='center', out.width="100%"}
 knitr::include_graphics("images/standings_table.png") 
@@ -202,7 +208,7 @@ knitr::include_graphics("images/standings_table.png")
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r, echo=FALSE, fig.align='center', out.width="100%"}
 knitr::include_graphics("images/standings_table_with_css.png")
@@ -210,7 +216,7 @@ knitr::include_graphics("images/standings_table_with_css.png")
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r}
 url_soccer <- "https://www.espn.com/soccer/standings/_/league/usa.1"
@@ -224,7 +230,7 @@ scrape_soccer %>%
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r}
 scrape_soccer %>% 
@@ -235,7 +241,7 @@ scrape_soccer %>%
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r, echo = F}
 teams <- scrape_soccer %>% 
@@ -264,7 +270,7 @@ df.soccer <- bind_cols(teams, stats) %>%
 
 ---
 
-## Art and Science
+## Science and Art
 
 ```{r}
 df.soccer
@@ -273,6 +279,12 @@ df.soccer
 ---
 
 ## Session functions
+
+- [https://rvest.tidyverse.org/reference/index.html#section-session](https://rvest.tidyverse.org/reference/index.html#section-session)
+
+```{r, echo=FALSE, fig.align='center', out.width="100%"}
+knitr::include_graphics("images/session_fcns.png")
+```
 
 
 ---
